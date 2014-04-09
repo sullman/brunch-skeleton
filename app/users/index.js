@@ -35,7 +35,7 @@ var Controller = Marionette.Controller.extend({
     app.execute('showLoading', true);
     _.delay(function () {
       app.execute('showLoading', false);
-      window.location.href = '/';
+      window.location.href = '';
     }, 1000);
   }
 });
