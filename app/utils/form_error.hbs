@@ -1,0 +1,8 @@
+{{#is type "alert"}}
+  <div class="alert alert-danger">
+    <button type="button" class="close" data-dismiss="alert">&#215;</button>
+    {{error}}
+  </div>
+{{else}}
+  <p>{{error}}</p>
+{{/is}}

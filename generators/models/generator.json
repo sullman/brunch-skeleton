@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "from": "models.js.hbs",
+      "to": "app/{{name}}/models.js"
+    }
+  ],
+  "dependencies": []
+}

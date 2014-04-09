@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "from": "view.js.hbs",
+      "to": "app/{{name}}/views.js",
+      "method": "append"
+    },
+    {
+      "from": "view.hbs.hbs",
+      "to": "app/{{name}}/{{$2}}.hbs"
+    }
+  ],
+  "dependencies": []
+}

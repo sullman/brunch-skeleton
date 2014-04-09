@@ -1,0 +1,13 @@
+/* jshint node: true */
+"use strict";
+
+var Backbone = require("backbone");
+var app = require("application");
+var $ = require("jquery");
+var BaseModels = require("models");
+
+var Models = app.module('{{#camelize}}{{name}}{{/camelize}}.Models');
+
+// TODO: Define models here, or use `scaffolt module-model {{name}} ModelName`
+
+module.exports = Models;

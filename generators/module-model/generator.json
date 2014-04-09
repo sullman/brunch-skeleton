@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "from": "model.js.hbs",
+      "to": "app/{{name}}/models.js",
+      "method": "append"
+    }
+  ],
+  "dependencies": []
+}

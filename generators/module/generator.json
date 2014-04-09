@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "from": "index.js.hbs",
+      "to": "app/{{name}}/index.js"
+    }
+  ],
+  "dependencies": [
+    {"name": "models", "params": "{{name}}"},
+    {"name": "views", "params": "{{name}}"}
+  ]
+}

@@ -1,0 +1,14 @@
+/* jshint node: true */
+"use strict";
+
+var Backbone = require("backbone");
+var app = require("application");
+var $ = require("jquery");
+var _ = require("underscore");
+var Marionette = Backbone.Marionette;
+
+var Views = app.module('{{#camelize}}{{name}}{{/camelize}}.Views');
+
+// TODO: Define views here, or use `scaffolt module-view {{name}} view_name`
+
+module.exports = Views;
